@@ -19,6 +19,7 @@ import random
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+##This code uses text analysis and machine learning to classify headlines as clickbait or non-clickbait##
 
 df = pd.read_csv("clickbait.csv")
 df = df.reset_index(drop=True)
